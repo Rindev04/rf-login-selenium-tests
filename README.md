@@ -26,15 +26,14 @@ Ensure you have the following installed:
 - ChromeDriver 
 
 Project Structure
-   ├── login_tests
-│   ├── valid_login.robot         # Test case for valid login
-│   ├── invalid_login.robot       # Test case for invalid login
-│   └── resources
-│       └── keywords.robot        # Reusable keywords
-├── output.xml                    # Test output
-├── report.html                   # Test summary report
-├── log.html                      # Detailed execution log
-└── README.md                     # Project documentation
+login_tests
+valid_login.robot            # Test case for valid login
+invalid_login.robot          # Test case for invalid login
+resources keywords.robot     # Reusable keywords
+output.xml                   # Test outputreport.html           
+report.html                  # Test summary report
+log.html                     # Detailed execution log
+README.md                    # Project documentation
 
 
 Test Cases Overview
